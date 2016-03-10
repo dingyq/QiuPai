@@ -17,6 +17,7 @@ typedef void (^MBLoadingCB)(void);
 @property (nonatomic, strong) NoDataTipView *noDataTipView;
 @property (nonatomic, strong) BadNetTipView *badNetTipV;
 
+// 返回上一个ViewController
 - (void)backToPreVC:(id)sender;
 
 - (void)loadingViewDismiss;
